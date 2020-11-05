@@ -1,11 +1,11 @@
 # SOVA App
-![](https://github.com/uav-profile/SOVA/blob/main/sources/images/about.jpg)
+![](https://github.com/uav-profile/SOVA-App/blob/main/sources/images/about.jpg)
 
 Данное ПО создано в образовательных целях - изучение возможностей получения информации из сети <a href="https://ru.wikipedia.org/wiki/%D0%98%D0%BD%D1%82%D0%B5%D1%80%D0%BD%D0%B5%D1%82">"Интернет"</a>.
 <br><br><b>Состав и назначение основных элементов:</b>
 <br>Вкладка <code><b>"REST API"</b></code>
 <br> Реализовано получение информации от различных API-сервисов:
-<br> * <a href="https://github.com/uav-profile/SOVA/blob/main/sources/text_data/mcc_codes.json">об операторе/регионе по IMSI-идентификатору</a>;
+<br> * <a href="https://github.com/uav-profile/SOVA-App/blob/main/sources/text_data/mcc_codes.json">об операторе/регионе по IMSI-идентификатору</a>;
 <br> * <a href="https://htmlweb.ru">о российском/международном абонентском номере</a>;
 <br> * <a href="https://ipinfo.io/signup">об IP-адресе</a>;
 <br> * <a href="https://www.opencellid.org">о месте по координатам, получение координат объекта</a>;
@@ -26,13 +26,14 @@
 
 ### 2. <a href="https://github.com/uav-profile/SOVA/releases/download/v0.0.1/SOVA-win10-amd64-3.7.exe">Скачать и распаковать portable-версию (архив) (win10-x64)</a> ![](https://github.com/uav-profile/SOVA/blob/main/sources/to_git/Down.png), <i>записать логины/пароли/токены</i> в текстовые файлы в каталоге <b>tokens</b> (см. подробнее во вкладке "Помощь"). Запустить <i>SOVA.exe</i>.
 
-### 3. <a href="https://github.com/uav-profile/SOVA/archive/main.zip">Скачать исходные файлы</a> ![](https://github.com/uav-profile/SOVA/blob/main/sources/to_git/Hourglass.png). Перед запуском необходимо установить <a href="https://www.python.org/downloads/">python</a> и <a href="https://pypi.org/search/">зависимости</a> (необходимые библиотеки), <i>записать логины/пароли/токены</i> в текстовые файлы в каталоге <b>tokens</b> (см. подробнее во вкладке "Помощь").
+### 3. <https://github.com/uav-profile/SOVA/archive/main.zip">Скачать исходные файлы</a> ![](https://github.com/uav-profile/SOVA/blob/main/sources/to_git/Hourglass.png). Перед запуском необходимо установить <a href="https://www.python.org/downloads/">python</a> и <a href="https://pypi.org/search/">зависимости</a> (необходимые библиотеки), <i>записать логины/пароли/токены</i> в текстовые файлы в каталоге <b>tokens</b> (см. подробнее во вкладке "Помощь").
 
 ### Установка зависимостей с помощью утилиты pip (командная строка):
     pip3 install matplotlib pandas folium pyqt5 requests urllib3==1.24.3 requests-futures requests_toolbelt geopy playsound
 
 ### Выполнить (командная строка):
-    python \\<путь_к_скрипту>\\SOVA.py
+    python \\<путь_к_скрипту>\\SOVA.py 
+    python3 \\<путь_к_скрипту>\\SOVA.py
     
     
     
