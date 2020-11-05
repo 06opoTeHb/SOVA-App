@@ -1,0 +1,72 @@
+QWidget {
+   background-color: #f1f4f1;
+}
+
+QLineEdit {
+   background-color: #f1f4f1;
+   color: black;
+   font-weight: bold;
+}
+
+QLabel {
+   background-color: #f1f4f1;
+   color: black;
+}
+
+QSpinBox {
+color: black;
+}
+
+QPushButton {
+   background-color: #f1f4f1;
+   color: black;
+}
+
+QRadioButton, QCheckBox {
+    color: black;
+}
+
+QGroupBox {
+color: black;
+}
+
+QProgressBar
+{
+    border: 2px solid grey;
+    border-radius: 5px;
+    text-align: center;
+}
+
+QProgressBar::chunk
+{
+    background-color: #c8c8c8;
+    width: 5px;
+    margin: 0.5px;
+}
+
+QTabWidget{
+    border: 0px transparent black;
+	color: black;
+    background-color: #f1f4f1;
+}
+
+QTabWidget::pane {
+    border: 1px solid grey;
+    padding: 5px;
+    margin: 0px;
+}
+
+QTabWidget::tab-bar {
+    left: 5px; /* move to the right by 5px */
+	color: black;
+    background-color: #f1f4f1;
+}
+
+QMenuBar {
+color: black;
+}
+
+QLineEdit:hover{
+border: 1px solid grey;
+}
+
