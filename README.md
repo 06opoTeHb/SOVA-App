@@ -36,7 +36,7 @@
     python3 \\<путь_к_скрипту>\\SOVA.py
     
     
-# ![](https://github.com/uav-profile/SOVA-App/blob/main/sources/to_git/Thumbs%20up.png) <a href="https://t.me/SovaAppBot"> TELEGRAM BOT</a>: <code>@SovaAppBot</code>    
+# <a href="https://t.me/SovaAppBot"> TELEGRAM BOT</a>: <code>@SovaAppBot</code>    
     
 ![](https://github.com/uav-profile/SOVA-App/blob/main/sources/to_git/Ok.png)    
     
